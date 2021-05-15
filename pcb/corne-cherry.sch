@@ -307,7 +307,6 @@ Text GLabel 12685 1815 2    47   Input ~ 0
 reset_r
 Text GLabel 6700 3105 0    60   Input ~ 0
 reset_r
-NoConn ~ 11285 1715
 Text GLabel 12685 2015 2    47   Input ~ 0
 col0_r
 Text GLabel 11285 2015 0    47   Input ~ 0
@@ -487,7 +486,7 @@ U 1 1 5FE4011F
 P 3315 2450
 F 0 "R1" H 3374 2496 50  0000 L CNN
 F 1 "4.7k" H 3374 2405 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 3315 2450 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 3315 2450 50  0001 C CNN
 F 3 "~" H 3315 2450 50  0001 C CNN
 	1    3315 2450
 	-1   0    0    1   
@@ -498,7 +497,7 @@ U 1 1 5FE45D00
 P 3710 2455
 F 0 "R2" H 3769 2501 50  0000 L CNN
 F 1 "4.7k" H 3769 2410 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 3710 2455 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 3710 2455 50  0001 C CNN
 F 3 "~" H 3710 2455 50  0001 C CNN
 	1    3710 2455
 	-1   0    0    1   
@@ -3080,4 +3079,47 @@ Wire Wire Line
 	7785 10385 7905 10385
 Wire Wire Line
 	5080 10400 4870 10400
+$Comp
+L Connector_Generic:Conn_01x05 J7
+U 1 1 60A7901D
+P 14050 2250
+F 0 "J7" H 14130 2292 50  0000 L CNN
+F 1 "Conn_01x05" H 14130 2201 50  0000 L CNN
+F 2 "other_parts:pimoroni-trackballl-bommod" H 14050 2250 50  0001 C CNN
+F 3 "~" H 14050 2250 50  0001 C CNN
+	1    14050 2250
+	1    0    0    -1  
+$EndComp
+Text GLabel 13850 2350 0    47   Input ~ 0
+SDA_r
+Text GLabel 13850 2250 0    47   Input ~ 0
+SCL_r
+NoConn ~ 11285 1715
+NoConn ~ 13850 2150
+$Comp
+L power:GNDA #PWR?
+U 1 1 60D45B45
+P 13450 2050
+F 0 "#PWR?" H 13450 1800 50  0001 C CNN
+F 1 "GNDA" H 13450 1900 50  0000 C CNN
+F 2 "" H 13450 2050 50  0001 C CNN
+F 3 "" H 13450 2050 50  0001 C CNN
+	1    13450 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13450 2050 13850 2050
+$Comp
+L power:VDD #PWR?
+U 1 1 60D5F654
+P 13450 2450
+F 0 "#PWR?" H 13450 2300 50  0001 C CNN
+F 1 "VDD" V 13467 2578 50  0000 L CNN
+F 2 "" H 13450 2450 50  0001 C CNN
+F 3 "" H 13450 2450 50  0001 C CNN
+	1    13450 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13450 2450 13850 2450
 $EndSCHEMATC
