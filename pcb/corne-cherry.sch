@@ -98,7 +98,7 @@ row1
 Text GLabel 8965 2215 0    47   Input ~ 0
 row0
 $Comp
-L kbd:SW_PUSH RSW1
+L corne-cherry-rescue:SW_PUSH-kbd RSW1
 U 1 1 5A5EB9E2
 P 6925 2675
 F 0 "RSW1" H 7075 2785 50  0000 C CNN
@@ -191,7 +191,7 @@ F 3 "" H 10565 1915 50  0001 C CNN
 $EndComp
 NoConn ~ 10365 1615
 $Comp
-L kbd:MJ-4PP-9 J1
+L corne-cherry-rescue:MJ-4PP-9-kbd J1
 U 1 1 5ACD605D
 P 3910 1325
 F 0 "J1" H 3910 1475 50  0000 C CNN
@@ -265,7 +265,7 @@ row1_r
 Text GLabel 11285 2215 0    47   Input ~ 0
 row0_r
 $Comp
-L kbd:SW_PUSH RSW2
+L corne-cherry-rescue:SW_PUSH-kbd RSW2
 U 1 1 5C25F978
 P 7000 3105
 F 0 "RSW2" H 7150 3215 50  0000 C CNN
@@ -341,7 +341,7 @@ Text GLabel 5325 1435 2    47   Input ~ 0
 SDA_r
 NoConn ~ 12685 1615
 $Comp
-L kbd:MJ-4PP-9 J3
+L corne-cherry-rescue:MJ-4PP-9-kbd J3
 U 1 1 5C25FA15
 P 2670 1325
 F 0 "J3" H 2670 1475 50  0000 C CNN
@@ -600,7 +600,7 @@ F 3 "" H 5755 1985 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L kbd:ProMicro U1
+L corne-cherry-rescue:ProMicro-kbd U1
 U 1 1 5A5E14C2
 P 9665 2165
 F 0 "U1" H 9655 1710 60  0000 C CNN
@@ -611,7 +611,7 @@ F 3 "" H 9765 1115 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L kbd:ProMicro U2
+L corne-cherry-rescue:ProMicro-kbd U2
 U 1 1 5C25F857
 P 11985 2165
 F 0 "U2" H 11985 1730 60  0000 C CNN
@@ -718,7 +718,7 @@ F 3 "~" H 5230 10800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L kbd:YS-SK6812MINI-E LED1
+L corne-cherry-rescue:YS-SK6812MINI-E-kbd LED1
 U 1 1 605C0D23
 P 1000 8310
 F 0 "LED1" V 1190 8570 29  0000 L CNN
@@ -729,7 +729,7 @@ F 3 "" H 1100 8060 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L kbd:YS-SK6812MINI-E LED4
+L corne-cherry-rescue:YS-SK6812MINI-E-kbd LED4
 U 1 1 605F7132
 P 1720 8310
 F 0 "LED4" V 1910 8570 29  0000 L CNN
@@ -740,7 +740,7 @@ F 3 "" H 1820 8060 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L kbd:YS-SK6812MINI-E LED10
+L corne-cherry-rescue:YS-SK6812MINI-E-kbd LED10
 U 1 1 605F8CC0
 P 3150 8310
 F 0 "LED10" V 3340 8570 29  0000 L CNN
@@ -751,7 +751,7 @@ F 3 "" H 3250 8060 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L kbd:YS-SK6812MINI-E LED14
+L corne-cherry-rescue:YS-SK6812MINI-E-kbd LED14
 U 1 1 605FE2D2
 P 3850 8310
 F 0 "LED14" V 4040 8570 29  0000 L CNN
@@ -762,7 +762,7 @@ F 3 "" H 3950 8060 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L kbd:YS-SK6812MINI-E LED18
+L corne-cherry-rescue:YS-SK6812MINI-E-kbd LED18
 U 1 1 605FE5BA
 P 4570 8310
 F 0 "LED18" V 4760 8570 29  0000 L CNN
@@ -773,7 +773,7 @@ F 3 "" H 4670 8060 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L kbd:YS-SK6812MINI-E LED19
+L corne-cherry-rescue:YS-SK6812MINI-E-kbd LED19
 U 1 1 6060C6B8
 P 4570 8990
 F 0 "LED19" V 4760 9250 29  0000 L CNN
@@ -784,7 +784,7 @@ F 3 "" H 4670 8740 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L kbd:YS-SK6812MINI-E LED15
+L corne-cherry-rescue:YS-SK6812MINI-E-kbd LED15
 U 1 1 6060C9FC
 P 3850 8990
 F 0 "LED15" V 4040 9250 29  0000 L CNN
@@ -795,7 +795,7 @@ F 3 "" H 3950 8740 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L kbd:YS-SK6812MINI-E LED11
+L corne-cherry-rescue:YS-SK6812MINI-E-kbd LED11
 U 1 1 6060CA06
 P 3150 8990
 F 0 "LED11" V 3340 9250 29  0000 L CNN
@@ -806,7 +806,7 @@ F 3 "" H 3250 8740 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L kbd:YS-SK6812MINI-E LED8
+L corne-cherry-rescue:YS-SK6812MINI-E-kbd LED8
 U 1 1 6060CA10
 P 2430 8990
 F 0 "LED8" V 2620 9250 29  0000 L CNN
@@ -817,7 +817,7 @@ F 3 "" H 2530 8740 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L kbd:YS-SK6812MINI-E LED5
+L corne-cherry-rescue:YS-SK6812MINI-E-kbd LED5
 U 1 1 6060CA1A
 P 1720 8990
 F 0 "LED5" V 1910 9250 29  0000 L CNN
@@ -828,7 +828,7 @@ F 3 "" H 1820 8740 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L kbd:YS-SK6812MINI-E LED2
+L corne-cherry-rescue:YS-SK6812MINI-E-kbd LED2
 U 1 1 6060CA24
 P 1000 8990
 F 0 "LED2" V 1190 9250 29  0000 L CNN
@@ -839,7 +839,7 @@ F 3 "" H 1100 8740 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L kbd:YS-SK6812MINI-E LED3
+L corne-cherry-rescue:YS-SK6812MINI-E-kbd LED3
 U 1 1 60615B66
 P 1000 9700
 F 0 "LED3" V 1190 9960 29  0000 L CNN
@@ -850,7 +850,7 @@ F 3 "" H 1100 9450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L kbd:YS-SK6812MINI-E LED6
+L corne-cherry-rescue:YS-SK6812MINI-E-kbd LED6
 U 1 1 60615E68
 P 1720 9700
 F 0 "LED6" V 1910 9960 29  0000 L CNN
@@ -861,7 +861,7 @@ F 3 "" H 1820 9450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L kbd:YS-SK6812MINI-E LED9
+L corne-cherry-rescue:YS-SK6812MINI-E-kbd LED9
 U 1 1 60615E72
 P 2430 9700
 F 0 "LED9" V 2620 9960 29  0000 L CNN
@@ -872,7 +872,7 @@ F 3 "" H 2530 9450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L kbd:YS-SK6812MINI-E LED16
+L corne-cherry-rescue:YS-SK6812MINI-E-kbd LED16
 U 1 1 60615E86
 P 3850 9700
 F 0 "LED16" V 4040 9960 29  0000 L CNN
@@ -883,7 +883,7 @@ F 3 "" H 3950 9450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L kbd:YS-SK6812MINI-E LED12
+L corne-cherry-rescue:YS-SK6812MINI-E-kbd LED12
 U 1 1 60615E7C
 P 3150 9700
 F 0 "LED12" V 3340 9960 29  0000 L CNN
@@ -894,7 +894,7 @@ F 3 "" H 3250 9450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L kbd:YS-SK6812MINI-E LED13
+L corne-cherry-rescue:YS-SK6812MINI-E-kbd LED13
 U 1 1 60625183
 P 3150 10400
 F 0 "LED13" V 3340 10660 29  0000 L CNN
@@ -905,7 +905,7 @@ F 3 "" H 3250 10150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L kbd:YS-SK6812MINI-E LED17
+L corne-cherry-rescue:YS-SK6812MINI-E-kbd LED17
 U 1 1 606254FD
 P 3850 10400
 F 0 "LED17" V 4040 10660 29  0000 L CNN
@@ -916,7 +916,7 @@ F 3 "" H 3950 10150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L kbd:YS-SK6812MINI-E LED21
+L corne-cherry-rescue:YS-SK6812MINI-E-kbd LED21
 U 1 1 60625507
 P 4570 10400
 F 0 "LED21" V 4760 10660 29  0000 L CNN
@@ -988,7 +988,7 @@ Connection ~ 2430 8650
 Wire Wire Line
 	2430 8650 3150 8650
 $Comp
-L kbd:YS-SK6812MINI-E LED7
+L corne-cherry-rescue:YS-SK6812MINI-E-kbd LED7
 U 1 1 605F8A14
 P 2430 8310
 F 0 "LED7" V 2620 8570 29  0000 L CNN
@@ -1195,7 +1195,7 @@ F 3 "" H 4970 10110 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L kbd:YS-SK6812MINI-E LED20
+L corne-cherry-rescue:YS-SK6812MINI-E-kbd LED20
 U 1 1 60615E90
 P 4570 9700
 F 0 "LED20" V 4760 9960 29  0000 L CNN
@@ -1261,7 +1261,7 @@ Wire Wire Line
 	9625 9325 10020 9325
 NoConn ~ 9925 8295
 $Comp
-L kbd:YS-SK6812MINI-E LED40
+L corne-cherry-rescue:YS-SK6812MINI-E-kbd LED40
 U 1 1 605E674C
 P 9625 8295
 F 0 "LED40" V 9815 8555 29  0000 L CNN
@@ -1431,7 +1431,7 @@ Wire Wire Line
 Wire Wire Line
 	7485 8635 7485 8595
 $Comp
-L kbd:YS-SK6812MINI-E LED30
+L corne-cherry-rescue:YS-SK6812MINI-E-kbd LED30
 U 1 1 605E681A
 P 7485 8295
 F 0 "LED30" V 7675 8555 29  0000 L CNN
@@ -1511,7 +1511,7 @@ Wire Wire Line
 Wire Wire Line
 	9325 8295 9205 8295
 $Comp
-L kbd:YS-SK6812MINI-E LED33
+L corne-cherry-rescue:YS-SK6812MINI-E-kbd LED33
 U 1 1 605E67E2
 P 7485 10385
 F 0 "LED33" V 7675 10645 29  0000 L CNN
@@ -1522,7 +1522,7 @@ F 3 "" H 7585 10135 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L kbd:YS-SK6812MINI-E LED29
+L corne-cherry-rescue:YS-SK6812MINI-E-kbd LED29
 U 1 1 605E67D8
 P 6775 10385
 F 0 "LED29" V 6965 10645 29  0000 L CNN
@@ -1533,7 +1533,7 @@ F 3 "" H 6875 10135 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L kbd:YS-SK6812MINI-E LED25
+L corne-cherry-rescue:YS-SK6812MINI-E-kbd LED25
 U 1 1 605E67CE
 P 6055 10385
 F 0 "LED25" V 6245 10645 29  0000 L CNN
@@ -1544,7 +1544,7 @@ F 3 "" H 6155 10135 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L kbd:YS-SK6812MINI-E LED36
+L corne-cherry-rescue:YS-SK6812MINI-E-kbd LED36
 U 1 1 605E67C4
 P 8205 9685
 F 0 "LED36" V 8395 9945 29  0000 L CNN
@@ -1555,7 +1555,7 @@ F 3 "" H 8305 9435 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L kbd:YS-SK6812MINI-E LED39
+L corne-cherry-rescue:YS-SK6812MINI-E-kbd LED39
 U 1 1 605E67BA
 P 8905 9685
 F 0 "LED39" V 9095 9945 29  0000 L CNN
@@ -1566,7 +1566,7 @@ F 3 "" H 9005 9435 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L kbd:YS-SK6812MINI-E LED42
+L corne-cherry-rescue:YS-SK6812MINI-E-kbd LED42
 U 1 1 605E67B0
 P 9625 9685
 F 0 "LED42" V 9815 9945 29  0000 L CNN
@@ -1577,7 +1577,7 @@ F 3 "" H 9725 9435 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L kbd:YS-SK6812MINI-E LED32
+L corne-cherry-rescue:YS-SK6812MINI-E-kbd LED32
 U 1 1 605E67A6
 P 7485 9685
 F 0 "LED32" V 7675 9945 29  0000 L CNN
@@ -1588,7 +1588,7 @@ F 3 "" H 7585 9435 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L kbd:YS-SK6812MINI-E LED28
+L corne-cherry-rescue:YS-SK6812MINI-E-kbd LED28
 U 1 1 605E679C
 P 6775 9685
 F 0 "LED28" V 6965 9945 29  0000 L CNN
@@ -1599,7 +1599,7 @@ F 3 "" H 6875 9435 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L kbd:YS-SK6812MINI-E LED24
+L corne-cherry-rescue:YS-SK6812MINI-E-kbd LED24
 U 1 1 605E6792
 P 6055 9685
 F 0 "LED24" V 6245 9945 29  0000 L CNN
@@ -1610,7 +1610,7 @@ F 3 "" H 6155 9435 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L kbd:YS-SK6812MINI-E LED23
+L corne-cherry-rescue:YS-SK6812MINI-E-kbd LED23
 U 1 1 605E6788
 P 6055 8975
 F 0 "LED23" V 6245 9235 29  0000 L CNN
@@ -1621,7 +1621,7 @@ F 3 "" H 6155 8725 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L kbd:YS-SK6812MINI-E LED27
+L corne-cherry-rescue:YS-SK6812MINI-E-kbd LED27
 U 1 1 605E677E
 P 6775 8975
 F 0 "LED27" V 6965 9235 29  0000 L CNN
@@ -1632,7 +1632,7 @@ F 3 "" H 6875 8725 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L kbd:YS-SK6812MINI-E LED31
+L corne-cherry-rescue:YS-SK6812MINI-E-kbd LED31
 U 1 1 605E6774
 P 7485 8975
 F 0 "LED31" V 7675 9235 29  0000 L CNN
@@ -1643,7 +1643,7 @@ F 3 "" H 7585 8725 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L kbd:YS-SK6812MINI-E LED35
+L corne-cherry-rescue:YS-SK6812MINI-E-kbd LED35
 U 1 1 605E676A
 P 8205 8975
 F 0 "LED35" V 8395 9235 29  0000 L CNN
@@ -1654,7 +1654,7 @@ F 3 "" H 8305 8725 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L kbd:YS-SK6812MINI-E LED38
+L corne-cherry-rescue:YS-SK6812MINI-E-kbd LED38
 U 1 1 605E6760
 P 8905 8975
 F 0 "LED38" V 9095 9235 29  0000 L CNN
@@ -1665,7 +1665,7 @@ F 3 "" H 9005 8725 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L kbd:YS-SK6812MINI-E LED41
+L corne-cherry-rescue:YS-SK6812MINI-E-kbd LED41
 U 1 1 605E6756
 P 9625 8975
 F 0 "LED41" V 9815 9235 29  0000 L CNN
@@ -1676,7 +1676,7 @@ F 3 "" H 9725 8725 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L kbd:YS-SK6812MINI-E LED37
+L corne-cherry-rescue:YS-SK6812MINI-E-kbd LED37
 U 1 1 605E6742
 P 8905 8295
 F 0 "LED37" V 9095 8555 29  0000 L CNN
@@ -1687,7 +1687,7 @@ F 3 "" H 9005 8045 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L kbd:YS-SK6812MINI-E LED34
+L corne-cherry-rescue:YS-SK6812MINI-E-kbd LED34
 U 1 1 605E6738
 P 8205 8295
 F 0 "LED34" V 8395 8555 29  0000 L CNN
@@ -1698,7 +1698,7 @@ F 3 "" H 8305 8045 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L kbd:YS-SK6812MINI-E LED26
+L corne-cherry-rescue:YS-SK6812MINI-E-kbd LED26
 U 1 1 605E672E
 P 6775 8295
 F 0 "LED26" V 6965 8555 29  0000 L CNN
@@ -1709,7 +1709,7 @@ F 3 "" H 6875 8045 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L kbd:YS-SK6812MINI-E LED22
+L corne-cherry-rescue:YS-SK6812MINI-E-kbd LED22
 U 1 1 605E5EB6
 P 6055 8295
 F 0 "LED22" V 6245 8555 29  0000 L CNN
@@ -1793,7 +1793,7 @@ Wire Wire Line
 	6790 5430 6790 6030
 Connection ~ 6790 5430
 $Comp
-L kbd:SW_PUSH SW23
+L corne-cherry-rescue:SW_PUSH-kbd SW23
 U 1 1 5C25F85D
 P 7790 4830
 F 0 "SW23" H 7940 4940 50  0000 C CNN
@@ -1816,7 +1816,7 @@ F 4 "C402213" H 8090 4980 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L kbd:SW_PUSH SW24
+L corne-cherry-rescue:SW_PUSH-kbd SW24
 U 1 1 5C25F869
 P 8490 4830
 F 0 "SW24" H 8640 4940 50  0000 C CNN
@@ -1839,7 +1839,7 @@ F 4 "C402213" H 8790 4980 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L kbd:SW_PUSH SW25
+L corne-cherry-rescue:SW_PUSH-kbd SW25
 U 1 1 5C25F875
 P 9190 4830
 F 0 "SW25" H 9340 4940 50  0000 C CNN
@@ -1850,7 +1850,7 @@ F 3 "" H 9190 4830 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L kbd:SW_PUSH SW26
+L corne-cherry-rescue:SW_PUSH-kbd SW26
 U 1 1 5C25F87B
 P 9890 4830
 F 0 "SW26" H 10040 4940 50  0000 C CNN
@@ -1861,7 +1861,7 @@ F 3 "" H 9890 4830 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L kbd:SW_PUSH SW27
+L corne-cherry-rescue:SW_PUSH-kbd SW27
 U 1 1 5C25F881
 P 10590 4830
 F 0 "SW27" H 10740 4940 50  0000 C CNN
@@ -1908,7 +1908,7 @@ F 4 "C402213" H 10890 4980 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L kbd:SW_PUSH SW22
+L corne-cherry-rescue:SW_PUSH-kbd SW22
 U 1 1 5C25F899
 P 7090 4830
 F 0 "SW22" H 7240 4940 50  0000 C CNN
@@ -1931,7 +1931,7 @@ F 4 "C402213" H 7390 4980 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L kbd:SW_PUSH SW29
+L corne-cherry-rescue:SW_PUSH-kbd SW29
 U 1 1 5C25F8A5
 P 7790 5430
 F 0 "SW29" H 7940 5540 50  0000 C CNN
@@ -1954,7 +1954,7 @@ F 4 "C402213" H 8090 5580 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L kbd:SW_PUSH SW30
+L corne-cherry-rescue:SW_PUSH-kbd SW30
 U 1 1 5C25F8B1
 P 8490 5430
 F 0 "SW30" H 8640 5540 50  0000 C CNN
@@ -1977,7 +1977,7 @@ F 4 "C402213" H 8790 5580 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L kbd:SW_PUSH SW31
+L corne-cherry-rescue:SW_PUSH-kbd SW31
 U 1 1 5C25F8BD
 P 9190 5430
 F 0 "SW31" H 9340 5540 50  0000 C CNN
@@ -1988,7 +1988,7 @@ F 3 "" H 9190 5430 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L kbd:SW_PUSH SW32
+L corne-cherry-rescue:SW_PUSH-kbd SW32
 U 1 1 5C25F8C3
 P 9890 5430
 F 0 "SW32" H 10040 5540 50  0000 C CNN
@@ -1999,7 +1999,7 @@ F 3 "" H 9890 5430 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L kbd:SW_PUSH SW33
+L corne-cherry-rescue:SW_PUSH-kbd SW33
 U 1 1 5C25F8C9
 P 10590 5430
 F 0 "SW33" H 10740 5540 50  0000 C CNN
@@ -2046,7 +2046,7 @@ F 4 "C402213" H 10890 5580 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L kbd:SW_PUSH SW28
+L corne-cherry-rescue:SW_PUSH-kbd SW28
 U 1 1 5C25F8E1
 P 7090 5430
 F 0 "SW28" H 7240 5540 50  0000 C CNN
@@ -2069,7 +2069,7 @@ F 4 "C402213" H 7390 5580 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L kbd:SW_PUSH SW35
+L corne-cherry-rescue:SW_PUSH-kbd SW35
 U 1 1 5C25F8ED
 P 7790 6030
 F 0 "SW35" H 7940 6140 50  0000 C CNN
@@ -2092,7 +2092,7 @@ F 4 "C402213" H 8090 6180 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L kbd:SW_PUSH SW36
+L corne-cherry-rescue:SW_PUSH-kbd SW36
 U 1 1 5C25F8F9
 P 8490 6030
 F 0 "SW36" H 8640 6140 50  0000 C CNN
@@ -2115,7 +2115,7 @@ F 4 "C402213" H 8790 6180 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L kbd:SW_PUSH SW37
+L corne-cherry-rescue:SW_PUSH-kbd SW37
 U 1 1 5C25F905
 P 9190 6030
 F 0 "SW37" H 9340 6140 50  0000 C CNN
@@ -2126,7 +2126,7 @@ F 3 "" H 9190 6030 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L kbd:SW_PUSH SW38
+L corne-cherry-rescue:SW_PUSH-kbd SW38
 U 1 1 5C25F90B
 P 9890 6030
 F 0 "SW38" H 10040 6140 50  0000 C CNN
@@ -2137,7 +2137,7 @@ F 3 "" H 9890 6030 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L kbd:SW_PUSH SW39
+L corne-cherry-rescue:SW_PUSH-kbd SW39
 U 1 1 5C25F911
 P 10590 6030
 F 0 "SW39" H 10740 6140 50  0000 C CNN
@@ -2184,7 +2184,7 @@ F 4 "C402213" H 10890 6180 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L kbd:SW_PUSH SW34
+L corne-cherry-rescue:SW_PUSH-kbd SW34
 U 1 1 5C25F929
 P 7090 6030
 F 0 "SW34" H 7240 6140 50  0000 C CNN
@@ -2207,7 +2207,7 @@ F 4 "C402213" H 7390 6180 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L kbd:SW_PUSH SW41
+L corne-cherry-rescue:SW_PUSH-kbd SW41
 U 1 1 5C25F935
 P 9890 6630
 F 0 "SW41" H 10040 6740 50  0000 C CNN
@@ -2230,7 +2230,7 @@ F 4 "C402213" H 10190 6780 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L kbd:SW_PUSH SW42
+L corne-cherry-rescue:SW_PUSH-kbd SW42
 U 1 1 5C25F941
 P 10590 6630
 F 0 "SW42" H 10740 6740 50  0000 C CNN
@@ -2253,7 +2253,7 @@ F 4 "C402213" H 10890 6780 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L kbd:SW_PUSH SW40
+L corne-cherry-rescue:SW_PUSH-kbd SW40
 U 1 1 5C25F94D
 P 9190 6630
 F 0 "SW40" H 9340 6740 50  0000 C CNN
@@ -2440,7 +2440,7 @@ Wire Wire Line
 	2005 5405 2005 6005
 Connection ~ 2005 5405
 $Comp
-L kbd:SW_PUSH SW2
+L corne-cherry-rescue:SW_PUSH-kbd SW2
 U 1 1 5A5E2699
 P 3005 4805
 F 0 "SW2" H 3155 4915 50  0000 C CNN
@@ -2451,7 +2451,7 @@ F 3 "" H 3005 4805 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L kbd:SW_PUSH SW3
+L corne-cherry-rescue:SW_PUSH-kbd SW3
 U 1 1 5A5E27F9
 P 3705 4805
 F 0 "SW3" H 3855 4915 50  0000 C CNN
@@ -2462,7 +2462,7 @@ F 3 "" H 3705 4805 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L kbd:SW_PUSH SW4
+L corne-cherry-rescue:SW_PUSH-kbd SW4
 U 1 1 5A5E2908
 P 4405 4805
 F 0 "SW4" H 4555 4915 50  0000 C CNN
@@ -2473,7 +2473,7 @@ F 3 "" H 4405 4805 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L kbd:SW_PUSH SW5
+L corne-cherry-rescue:SW_PUSH-kbd SW5
 U 1 1 5A5E2933
 P 5105 4805
 F 0 "SW5" H 5255 4915 50  0000 C CNN
@@ -2484,7 +2484,7 @@ F 3 "" H 5105 4805 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L kbd:SW_PUSH SW6
+L corne-cherry-rescue:SW_PUSH-kbd SW6
 U 1 1 5A5E295E
 P 5805 4805
 F 0 "SW6" H 5955 4915 50  0000 C CNN
@@ -2495,7 +2495,7 @@ F 3 "" H 5805 4805 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L kbd:SW_PUSH SW1
+L corne-cherry-rescue:SW_PUSH-kbd SW1
 U 1 1 5A5E2B19
 P 2305 4805
 F 0 "SW1" H 2455 4915 50  0000 C CNN
@@ -2518,7 +2518,7 @@ F 4 "C402213" H 2605 4955 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L kbd:SW_PUSH SW8
+L corne-cherry-rescue:SW_PUSH-kbd SW8
 U 1 1 5A5E2D26
 P 3005 5405
 F 0 "SW8" H 3155 5515 50  0000 C CNN
@@ -2529,7 +2529,7 @@ F 3 "" H 3005 5405 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L kbd:SW_PUSH SW9
+L corne-cherry-rescue:SW_PUSH-kbd SW9
 U 1 1 5A5E2D32
 P 3705 5405
 F 0 "SW9" H 3855 5515 50  0000 C CNN
@@ -2540,7 +2540,7 @@ F 3 "" H 3705 5405 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L kbd:SW_PUSH SW10
+L corne-cherry-rescue:SW_PUSH-kbd SW10
 U 1 1 5A5E2D3E
 P 4405 5405
 F 0 "SW10" H 4555 5515 50  0000 C CNN
@@ -2551,7 +2551,7 @@ F 3 "" H 4405 5405 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L kbd:SW_PUSH SW11
+L corne-cherry-rescue:SW_PUSH-kbd SW11
 U 1 1 5A5E2D44
 P 5105 5405
 F 0 "SW11" H 5255 5515 50  0000 C CNN
@@ -2562,7 +2562,7 @@ F 3 "" H 5105 5405 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L kbd:SW_PUSH SW12
+L corne-cherry-rescue:SW_PUSH-kbd SW12
 U 1 1 5A5E2D4A
 P 5805 5405
 F 0 "SW12" H 5955 5515 50  0000 C CNN
@@ -2573,7 +2573,7 @@ F 3 "" H 5805 5405 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L kbd:SW_PUSH SW7
+L corne-cherry-rescue:SW_PUSH-kbd SW7
 U 1 1 5A5E2D6E
 P 2305 5405
 F 0 "SW7" H 2455 5515 50  0000 C CNN
@@ -2584,7 +2584,7 @@ F 3 "" H 2305 5405 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L kbd:SW_PUSH SW14
+L corne-cherry-rescue:SW_PUSH-kbd SW14
 U 1 1 5A5E35B1
 P 3005 6005
 F 0 "SW14" H 3155 6115 50  0000 C CNN
@@ -2607,7 +2607,7 @@ F 4 "C402213" H 3305 6155 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L kbd:SW_PUSH SW15
+L corne-cherry-rescue:SW_PUSH-kbd SW15
 U 1 1 5A5E35BD
 P 3705 6005
 F 0 "SW15" H 3855 6115 50  0000 C CNN
@@ -2630,7 +2630,7 @@ F 4 "C402213" H 4005 6155 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L kbd:SW_PUSH SW16
+L corne-cherry-rescue:SW_PUSH-kbd SW16
 U 1 1 5A5E35C9
 P 4405 6005
 F 0 "SW16" H 4555 6115 50  0000 C CNN
@@ -2641,7 +2641,7 @@ F 3 "" H 4405 6005 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L kbd:SW_PUSH SW17
+L corne-cherry-rescue:SW_PUSH-kbd SW17
 U 1 1 5A5E35CF
 P 5105 6005
 F 0 "SW17" H 5255 6115 50  0000 C CNN
@@ -2652,7 +2652,7 @@ F 3 "" H 5105 6005 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L kbd:SW_PUSH SW18
+L corne-cherry-rescue:SW_PUSH-kbd SW18
 U 1 1 5A5E35D5
 P 5805 6005
 F 0 "SW18" H 5955 6115 50  0000 C CNN
@@ -2699,7 +2699,7 @@ F 4 "C402213" H 6105 6155 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L kbd:SW_PUSH SW13
+L corne-cherry-rescue:SW_PUSH-kbd SW13
 U 1 1 5A5E35F9
 P 2305 6005
 F 0 "SW13" H 2455 6115 50  0000 C CNN
@@ -2722,7 +2722,7 @@ F 4 "C402213" H 2605 6155 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L kbd:SW_PUSH SW20
+L corne-cherry-rescue:SW_PUSH-kbd SW20
 U 1 1 5A5E37A4
 P 5105 6605
 F 0 "SW20" H 5255 6715 50  0000 C CNN
@@ -2745,7 +2745,7 @@ F 4 "C402213" H 5405 6755 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L kbd:SW_PUSH SW21
+L corne-cherry-rescue:SW_PUSH-kbd SW21
 U 1 1 5A5E37B0
 P 5805 6605
 F 0 "SW21" H 5955 6715 50  0000 C CNN
@@ -2768,7 +2768,7 @@ F 4 "C402213" H 6105 6755 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L kbd:SW_PUSH SW19
+L corne-cherry-rescue:SW_PUSH-kbd SW19
 U 1 1 5A5E37EC
 P 4405 6605
 F 0 "SW19" H 4555 6715 50  0000 C CNN
